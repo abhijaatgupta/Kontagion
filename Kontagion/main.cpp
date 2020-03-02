@@ -20,10 +20,7 @@ bool is_directory(string path)
 }
 #endif
 
-  // If your program is having trouble finding the Assets directory,
-  // replace the string literal with a full path name to the directory,
-  // e.g., "Z:/CS32/Kontagion/Assets" or "/Users/fred/cs32/Kontagion/Assets"
-
+//include the pathname here to find the assets folder
 const string assetDirectory = "/Users/abhijaat/Downloads/Kontagion-2/DerivedData/Kontagion/Build/Products/Debug/Assets"; 
 
 class GameWorld;
